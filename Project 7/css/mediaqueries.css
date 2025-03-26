@@ -1,0 +1,433 @@
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: .8vw;
+    }
+
+    body {}
+
+    .head-comp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 9rem;
+    }
+
+    .head-comp input {
+        width: 20%;
+    }
+
+    .lists {
+        display: grid;
+        grid-template-columns: repeat(5, 23rem);
+        justify-content: center;
+
+        margin-top: -10rem;
+    }
+
+    .list1 {
+        grid-template-columns: 100rem;
+        width: 14rem;
+    }
+
+    .third-lists {
+        display: grid;
+        grid-template-columns: repeat(2, 28rem);
+        column-gap: 25rem;
+        justify-content: center;
+        margin-right: 22rem;
+
+    }
+
+    .third-list1 {
+        display: flex;
+        flex-direction: column;
+        width: 50rem;
+    }
+
+    .our-lists {
+        display: grid;
+        grid-template-columns: repeat(2, 28rem);
+        column-gap: 25rem;
+        margin-right: 22rem;
+    }
+
+    .o-list1 {
+        width: 50rem;
+    }
+
+    .tower {
+        width: 25rem;
+        height: 80rem;
+    }
+
+    .fifth {
+        display: grid;
+        grid-template-columns: 45rem 60rem;
+        justify-content: start;
+        margin-top: 12rem;
+        background-color: white;
+    }
+
+    .fifth-content {
+        margin-top: 9rem;
+        margin-left: -20rem;
+    }
+
+    .m-content {
+        font-size: 2rem;
+    }
+
+    .span {
+        font-size: 2rem;
+    }
+
+    .sixth-grid {
+        grid-template-columns: repeat(2, 40rem);
+        column-gap: 15rem;
+        row-gap: 7rem;
+        margin-right: 10rem;
+    }
+
+    .item-1 {
+        width: 40rem;
+        font-size: rem;
+    }
+
+    .item-1 p {
+        font-size: 2rem;
+    }
+
+    .seventh {
+        min-height: 80vh;
+    }
+
+    .seventh p {
+        font-size: 2.2rem;
+        line-height: 4rem;
+        margin-right: 20rem;
+        top: 20%;
+        left: 10%;
+    }
+
+    .eight {
+        display: grid;
+        grid-template-columns: repeat(2, 30rem);
+        column-gap: 23rem;
+        row-gap: 3rem;
+        margin-right: 20rem;
+    }
+
+    .itemm1 {
+        width: 40rem;
+
+    }
+
+    .n-grid {
+        grid-template-columns: repeat(2, 30rem);
+        column-gap: 15rem;
+        margin-right: 12rem;
+        row-gap: 5rem;
+
+    }
+
+    .n-item {
+        width: 40rem;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        font-size: 3.5rem;
+    }
+
+    .menu a {
+        font-size: 1.8rem;
+    }
+
+    .head-comp input {
+        width: 40rem;
+    }
+
+    .search-btn {
+        padding: 1.6rem 3.4rem;
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .third-title,
+    .sixth-heading,
+    .n-heading {
+        font-size: 4rem;
+    }
+
+    .third-tag,
+    .testimonial,
+    .n-tag {
+        font-size: 2rem;
+    }
+
+    .list2-icon {
+        font-size: 3rem;
+    }
+
+    .categary {
+        font-size: 2rem;
+    }
+
+    .title1 {
+        font-size: 2.8rem;
+    }
+
+    .address,
+    .p-number {
+        font-size: 2rem;
+        padding: 0rem 2rem;
+        margin-top: 2rem;
+    }
+
+    .review {
+        font-size: 2.2rem;
+    }
+
+    .so-heading {
+        font-size: 2rem;
+    }
+
+    .so-content {
+        font-size: 3.6rem;
+    }
+
+    .so-btn {
+        font-size: 1.6rem;
+    }
+
+    .fourth-heading {
+        font-size: 4rem;
+    }
+
+    .fourth-tag {
+        font-size: 2rem;
+    }
+
+    .o-icon {
+        font-size: 3rem;
+    }
+
+    .o-categary {
+        font-size: 2rem;
+    }
+
+    .o-title {
+        font-size: 2.8rem;
+    }
+
+    .o-phone,
+    .o-address {
+        font-size:  1.6rem;
+        padding: 0rem 2rem;
+        margin-top: 2rem;
+    }
+
+    .o-review {
+        font-size: 2.2rem;
+    }
+
+    .seventh {
+        min-height: 130vh;
+    }
+
+    .eight h1 {
+        font-size: 2.6rem;
+    }
+
+    .e-content {
+        font-size: 2.2rem;
+        line-height: 4rem;
+    }
+
+    .n-title {
+        font-size: 2.6rem;
+        padding: 0rem 5rem;
+    }
+
+    .n-content {
+        font-size: 2.2rem;
+        padding: 0rem 5rem;
+    }
+
+    .date {
+        font-size: 2rem;
+        margin-left: 6.3rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 4.2rem;
+    }
+
+    .menu a {
+        font-size: 2rem;
+    }
+
+    .head-comp input {
+        padding: 2.8rem 2rem;
+    }
+
+    .search-btn {
+        padding: 2.4rem 6rem;
+    }
+
+    .third-title,.sixth-heading,.n-heading{
+        font-size: 4.6rem;
+    }
+
+    .third-tag, .testimonial,.n-tag{
+        font-size: 2.6rem;
+    }
+
+    .list2-icon{
+        font-size: 3.6rem;
+    }
+
+    .categary{
+        font-size: 2.6rem;
+    }
+
+    .title1{
+        font-size: 3.4rem;
+    }
+
+    .address,.p-number{
+        font-size: 2.6rem;
+        padding: 0rem 2rem;
+        margin-top: 2rem;
+        line-height: 3rem;
+    }
+
+    .review{
+        font-size: 2.8rem;
+    }
+
+    .so-grid{
+        grid-template-columns: 60rem 90rem;
+        gap: 0rem;
+    }
+
+    .so-heading{
+        font-size: 2.4rem;
+        margin-right: 50rem; 
+        margin-top: -20rem;
+    }
+
+    .so-content{
+        font-size: 4rem;
+    }
+
+    .so-btn{
+        font-size: 1.6rem;
+        grid-column: span 2;
+        margin-left: 50rem;
+        margin-top: -24rem;
+        padding: 2.8rem 4rem;
+        font-size: 1.8rem;
+    }
+
+    .fourth-heading{
+        font-size: 4.6rem;
+    }
+
+    .fourth-tag{
+        font-size: 2.6rem;
+    }
+
+    .o-icon{
+        font-size: 3.6rem;
+    }
+
+    .o-categary{
+        font-size: 2.6rem;
+    }
+
+    .o-title{
+        font-size: 3.6rem;
+    }
+
+    .o-phone,.o-address{
+        font-size: 2.6rem;
+        padding: 0rem 2rem;
+        margin-top: 2rem;
+        line-height: 3rem;
+    }
+
+    .o-review{
+        font-size: 2.8rem;
+    }
+
+    .tag{
+        font-size: 2rem;
+    }
+
+    .m-content,.span{
+        font-size: 2.2rem;
+    }
+
+    .s-icon{
+        font-size: 3rem;
+    }
+
+    .member-review{
+        
+    }
+
+    .name{
+        font-size: 2.4rem;
+    }
+
+    .work{
+        font-size: 1.8rem;
+    }
+
+    .member-img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .seventh{
+        min-height: 130vh;
+    }
+
+    .seventh p{
+        font-size: 2.6rem;
+        line-height: 4rem;
+    }
+
+    .eight h1{
+        font-size: 2.8rem;
+    }
+
+    .e-content{
+        font-size: 2.4rem;
+        line-height: 4.2rem;
+    }
+
+    .n-title{
+        font-size: 2.8rem;
+        padding: 0rem 5rem;
+    }
+
+    .n-content{
+        font-size: 2.4rem;
+        padding: 0rem 5rem;
+        line-height: 4rem;
+    }
+
+    .date{
+        font-size: 2.2rem;
+        margin-left: 6.3rem;
+    }
+}
